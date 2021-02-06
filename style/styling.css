@@ -38,13 +38,27 @@
     img.logo {
         width: 200px;
         height: 75px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     i.fa-list-ul {
         padding: 10px;
         width: 15px;
         height: 15px;
+    }   
+
+    .contact {
+        border: none;
+        background-color: rgb(12, 70, 22);;
+    }
+
+    .contact:focus + .dropdown-content {
+        display: inline;
+    }
+    
+    .dropdown-content {
+        list-style-type: none;
+        display: none;
     }
 
     #slideshow {
